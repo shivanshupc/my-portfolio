@@ -8,7 +8,7 @@ export default function Footer() {
     { href: "https://github.com", icon: Github, label: "GitHub" },
     { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
     { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
-    { href: "mailto:your.email@example.com", icon: Mail, label: "Email" },
+    { href: "mailto:shivanshupc@gmail.com", icon: Mail, label: "Email" },
   ];
 
   return (
@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-semibold mb-4">Your Name</h3>
+            <h3 className="text-xl font-semibold mb-4">Shivanshu Sharma</h3>
             <p className="text-primary-300 text-sm">
               Developer, Photographer, Creator. Building digital experiences and
               capturing moments.
@@ -86,7 +86,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-primary-800 text-center">
           <p className="text-primary-400 text-sm">
-            &copy; {currentYear} Your Name. All rights reserved.
+            &copy; {currentYear} Shivanshu Sharma. All rights reserved.
           </p>
         </div>
       </div>

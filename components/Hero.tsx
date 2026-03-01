@@ -15,7 +15,7 @@ export default function Hero() {
 
           {/* Name & Title */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary-900 dark:text-white mb-4">
-            Your Name
+            Shivanshu Sharma
           </h1>
           <p className="text-xl sm:text-2xl text-primary-600 dark:text-primary-300 mb-6">
             Developer & Photographer

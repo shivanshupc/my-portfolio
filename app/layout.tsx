@@ -7,21 +7,21 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Name | Developer & Photographer",
+  title: "Shivanshu Sharma | Developer & Photographer",
   description: "Personal portfolio showcasing development skills and photography work.",
   keywords: ["developer", "photographer", "portfolio", "web development", "react", "next.js"],
-  authors: [{ name: "Your Name" }],
+  authors: [{ name: "Shivanshu Sharma" }],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://your-domain.com",
-    title: "Your Name | Developer & Photographer",
+    title: "Shivanshu Sharma | Developer & Photographer",
     description: "Personal portfolio showcasing development skills and photography work.",
-    siteName: "Your Name Portfolio",
+    siteName: "Shivanshu Sharma Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Your Name | Developer & Photographer",
+    title: "Shivanshu Sharma | Developer & Photographer",
     description: "Personal portfolio showcasing development skills and photography work.",
   },
 };

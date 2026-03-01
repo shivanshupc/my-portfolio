@@ -24,7 +24,7 @@ export default function AboutPage() {
 
             <div className="flex-1 text-center md:text-left">
               <h2 className="text-2xl font-bold text-primary-900 dark:text-white mb-2">
-                Your Name
+                Shivanshu Sharma
               </h2>
               <p className="text-primary-500 dark:text-primary-400 flex items-center justify-center md:justify-start mb-4">
                 <MapPin className="w-4 h-4 mr-1" />
