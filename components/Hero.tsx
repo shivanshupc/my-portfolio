@@ -9,7 +9,7 @@ export default function Hero() {
           {/* Profile Image Placeholder */}
           <div className="mb-8 flex justify-center">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white text-4xl font-semibold">
-              YN
+              SS
             </div>
           </div>
 
@@ -18,14 +18,13 @@ export default function Hero() {
             Shivanshu Sharma
           </h1>
           <p className="text-xl sm:text-2xl text-primary-600 dark:text-primary-300 mb-6">
-            Developer & Photographer
+            Aspiring Software Engineer
           </p>
 
           {/* Tagline */}
           <p className="text-lg text-primary-500 dark:text-primary-400 max-w-2xl mx-auto mb-10">
-            I craft digital experiences and capture moments through my lens.
-            Passionate about clean code, beautiful design, and compelling
-            visuals.
+            B.Tech student passionate about building web applications and solving complex problems.
+            Experienced in React.js, Node.js, and full-stack development.
           </p>
 
           {/* CTA Buttons */}
