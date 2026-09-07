@@ -1,75 +1,75 @@
-import { Code, Palette, Database, Cloud, Wrench, Terminal, Smartphone, Users } from "lucide-react";
+import { Code, Brain, Cloud, Workflow, Wrench, Users, Terminal, Award } from "lucide-react";
 
 const skillCategories = [
   {
     icon: Code,
-    title: "Programming Languages",
+    title: "Programming & AI",
     skills: [
-      { name: "JavaScript/TypeScript", level: 95 },
-      { name: "Python", level: 90 },
-      { name: "Go", level: 80 },
-      { name: "Rust", level: 70 },
-      { name: "Java", level: 75 },
-      { name: "C/C++", level: 65 },
+      { name: "Python", level: 95 },
+      { name: "LangChain", level: 90 },
+      { name: "LangFuse", level: 90 },
+      { name: "PyTorch", level: 88 },
+      { name: "TensorFlow", level: 85 },
+      { name: "Scikit-learn", level: 90 },
     ],
   },
   {
-    icon: Palette,
-    title: "Frontend Development",
+    icon: Brain,
+    title: "GenAI & LLM Systems",
     skills: [
-      { name: "React", level: 95 },
-      { name: "Next.js", level: 90 },
-      { name: "Vue.js", level: 80 },
-      { name: "Tailwind CSS", level: 95 },
-      { name: "Framer Motion", level: 85 },
-      { name: "Three.js", level: 70 },
-    ],
-  },
-  {
-    icon: Database,
-    title: "Backend Development",
-    skills: [
-      { name: "Node.js", level: 90 },
-      { name: "Express.js", level: 90 },
-      { name: "PostgreSQL", level: 85 },
-      { name: "MongoDB", level: 85 },
-      { name: "Redis", level: 80 },
-      { name: "GraphQL", level: 80 },
+      { name: "RAG Pipelines", level: 92 },
+      { name: "LLM Fine-tuning", level: 85 },
+      { name: "Agent Orchestration (ReAct)", level: 90 },
+      { name: "vLLM Serving", level: 90 },
+      { name: "AWS Bedrock", level: 88 },
+      { name: "OCR Pipelines", level: 85 },
     ],
   },
   {
     icon: Cloud,
-    title: "Cloud & DevOps",
+    title: "Cloud & Infrastructure",
     skills: [
-      { name: "AWS", level: 85 },
+      { name: "AWS (Bedrock, SageMaker, DynamoDB)", level: 90 },
+      { name: "Kubernetes (GPU Deployments)", level: 88 },
       { name: "Docker", level: 90 },
-      { name: "Kubernetes", level: 75 },
-      { name: "CI/CD", level: 85 },
-      { name: "Terraform", level: 70 },
-      { name: "Vercel", level: 90 },
+      { name: "Load Balancer Configuration", level: 85 },
+      { name: "NVIDIA DCGM / GPU Metrics", level: 82 },
+      { name: "Grafana Observability", level: 88 },
+    ],
+  },
+  {
+    icon: Workflow,
+    title: "MLOps & CI/CD",
+    skills: [
+      { name: "CI/CD Pipelines", level: 90 },
+      { name: "MLflow", level: 88 },
+      { name: "Apache Airflow", level: 85 },
+      { name: "Evidently AI (Monitoring)", level: 85 },
+      { name: "Splunk (Logging)", level: 82 },
+      { name: "EDA & Predictive Modeling", level: 90 },
     ],
   },
   {
     icon: Wrench,
     title: "Tools & Platforms",
     skills: [
-      { name: "Git/GitHub", level: 95 },
-      { name: "VS Code", level: 95 },
-      { name: "Figma", level: 85 },
-      { name: "Postman", level: 90 },
+      { name: "Git/GitHub", level: 90 },
       { name: "Linux", level: 85 },
-      { name: "Adobe Lightroom", level: 80 },
+      { name: "SageMaker", level: 85 },
+      { name: "DynamoDB", level: 85 },
+      { name: "Langfuse Tracing", level: 90 },
+      { name: "Adobe Lightroom", level: 75 },
     ],
   },
   {
     icon: Users,
-    title: "Soft Skills",
+    title: "Professional Strengths",
     skills: [
-      { name: "Communication", level: 90 },
+      { name: "System Design (Scalable Cloud)", level: 88 },
+      { name: "Production GenAI Deployment", level: 92 },
       { name: "Problem Solving", level: 95 },
-      { name: "Team Leadership", level: 85 },
-      { name: "Project Management", level: 80 },
-      { name: "Agile/Scrum", level: 85 },
+      { name: "Communication", level: 88 },
+      { name: "Team Collaboration", level: 88 },
       { name: "Mentoring", level: 80 },
     ],
   },
@@ -138,7 +138,7 @@ export default function SkillsPage() {
             </h3>
           </div>
           <div className="flex flex-wrap gap-3">
-            {["Web3", "Machine Learning", "System Design", "Rust", "WASM"].map((skill) => (
+            {["AR/VR Applications", "Advanced Agent Orchestration", "LLM Optimization", "Secure Cloud Architectures", "Multimodal GenAI"].map((skill) => (
               <span
                 key={skill}
                 className="px-4 py-2 bg-primary-100 dark:bg-primary-800 text-primary-700 dark:text-primary-300 rounded-full text-sm"
@@ -152,16 +152,15 @@ export default function SkillsPage() {
         {/* Certifications */}
         <div className="mt-8 bg-white dark:bg-primary-900 rounded-2xl shadow-sm p-8">
           <div className="flex items-center mb-6">
-            <Smartphone className="w-5 h-5 mr-2 text-primary-600 dark:text-primary-300" />
+            <Award className="w-5 h-5 mr-2 text-primary-600 dark:text-primary-300" />
             <h3 className="text-xl font-semibold text-primary-900 dark:text-white">
               Certifications
             </h3>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              "AWS Certified Developer - Associate",
-              "Google Cloud Professional Developer",
-              "Meta Frontend Developer Certificate",
+              "AWS Machine Learning Specialty",
+              "NVIDIA AI Infrastructure Architect",
             ].map((cert) => (
               <div
                 key={cert}

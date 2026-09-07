@@ -18,13 +18,14 @@ export default function Hero() {
             Shivanshu Sharma
           </h1>
           <p className="text-xl sm:text-2xl text-primary-600 dark:text-primary-300 mb-6">
-            Aspiring Software Engineer
+            ML Engineer | GenAI & MLOps
           </p>
 
           {/* Tagline */}
           <p className="text-lg text-primary-500 dark:text-primary-400 max-w-2xl mx-auto mb-10">
-            B.Tech student passionate about building web applications and solving complex problems.
-            Experienced in React.js, Node.js, and full-stack development.
+            ML Engineer with 5+ years of experience designing, deploying, and optimizing ML and GenAI systems in
+            production. Specialized in Kubernetes-based GPU deployments, MLOps pipelines, and LLM serving
+            infrastructure (vLLM, Langfuse).
           </p>
 
           {/* CTA Buttons */}
@@ -44,7 +45,7 @@ export default function Hero() {
               Download Resume
             </Link>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:shivanshupc@gmail.com"
               className="inline-flex items-center justify-center px-6 py-3 border border-primary-300 dark:border-primary-700 text-primary-900 dark:text-white rounded-lg font-medium hover:bg-primary-100 dark:hover:bg-primary-800 transition-colors"
             >
               <Mail className="mr-2 w-4 h-4" />

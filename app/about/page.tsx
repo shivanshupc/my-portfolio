@@ -19,21 +19,25 @@ export default function AboutPage() {
           <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
             {/* Profile Image Placeholder */}
             <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center text-white text-5xl font-semibold flex-shrink-0">
-              YN
+              SS
             </div>
 
             <div className="flex-1 text-center md:text-left">
               <h2 className="text-2xl font-bold text-primary-900 dark:text-white mb-2">
                 Shivanshu Sharma
               </h2>
-              <p className="text-primary-500 dark:text-primary-400 flex items-center justify-center md:justify-start mb-4">
+              <p className="text-primary-500 dark:text-primary-400 flex items-center justify-center md:justify-start mb-1">
                 <MapPin className="w-4 h-4 mr-1" />
-                Your City, Country
+                Pune, India
+              </p>
+              <p className="text-sm text-primary-500 dark:text-primary-400 mb-4">
+                shivanshupc@gmail.com • +91-7982398257 • linkedin.com/in/shivanshupc/ • github.com/shivanshupc
               </p>
               <p className="text-primary-600 dark:text-primary-300 leading-relaxed">
-                Hi there! I&apos;m a passionate developer and photographer based in [Your City].
-                I love building beautiful digital experiences and capturing moments through my lens.
-                With a background in [Your Background], I bring a unique perspective to every project I work on.
+                Hi there! I&apos;m an ML Engineer with 5+ years of experience designing, deploying, and optimizing ML
+                and GenAI systems in production. AWS Machine Learning Specialty and NVIDIA AI Infrastructure Architect
+                certified. I specialize in Kubernetes-based GPU deployments, MLOps pipelines, LLM serving
+                infrastructure (vLLM, Langfuse), and building scalable, secure cloud architectures.
               </p>
             </div>
           </div>
@@ -47,27 +51,27 @@ export default function AboutPage() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
-              <h4 className="font-medium text-primary-900 dark:text-white mb-2">Web Development</h4>
+              <h4 className="font-medium text-primary-900 dark:text-white mb-2">GenAI Infrastructure</h4>
               <p className="text-sm text-primary-600 dark:text-primary-300">
-                Building modern, responsive web applications using React, Next.js, and other cutting-edge technologies.
+                Designing production-grade RAG applications including ReAct-based RAG agents handling GBs of data on Kubernetes-backed LLM serving infrastructure.
+              </p>
+            </div>
+            <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
+              <h4 className="font-medium text-primary-900 dark:text-white mb-2">MLOps & Observability</h4>
+              <p className="text-sm text-primary-600 dark:text-primary-300">
+                Building CI/CD pipelines, MLflow versioning, and unified observability with vLLM metrics, Langfuse tracing, NVIDIA DCGM and Grafana.
+              </p>
+            </div>
+            <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
+              <h4 className="font-medium text-primary-900 dark:text-white mb-2">ML & LLM Applications</h4>
+              <p className="text-sm text-primary-600 dark:text-primary-300">
+                Mortality rate prediction, OCR pipelines with DynamoDB, LLM+RAG chatbots for insurance document analysis, and Scikit-learn classification models.
               </p>
             </div>
             <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
               <h4 className="font-medium text-primary-900 dark:text-white mb-2">Photography</h4>
               <p className="text-sm text-primary-600 dark:text-primary-300">
                 Capturing landscapes, portraits, and street photography with a focus on natural light and authentic moments.
-              </p>
-            </div>
-            <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
-              <h4 className="font-medium text-primary-900 dark:text-white mb-2">UI/UX Design</h4>
-              <p className="text-sm text-primary-600 dark:text-primary-300">
-                Creating intuitive and beautiful user interfaces with attention to detail and user experience.
-              </p>
-            </div>
-            <div className="p-4 bg-primary-50 dark:bg-primary-800 rounded-lg">
-              <h4 className="font-medium text-primary-900 dark:text-white mb-2">Content Creation</h4>
-              <p className="text-sm text-primary-600 dark:text-primary-300">
-                Writing technical articles, creating tutorials, and sharing knowledge with the community.
               </p>
             </div>
           </div>
@@ -81,21 +85,33 @@ export default function AboutPage() {
           </h3>
           <div className="space-y-6">
             <div className="border-l-2 border-primary-300 dark:border-primary-700 pl-4">
-              <h4 className="font-medium text-primary-900 dark:text-white">Present</h4>
+              <h4 className="font-medium text-primary-900 dark:text-white">Machine Learning Consultant — Deloitte USI, Pune (Apr 2024 - Present)</h4>
               <p className="text-primary-600 dark:text-primary-300 text-sm">
-                Working as a [Your Role] at [Company/Organization], building impactful products and learning every day.
+                Architecting GenAI observability (vLLM + Langfuse + NVIDIA DCGM + Grafana), deploying RAG/ReAct agents on Kubernetes, automating preprocessing with Airflow, and standardizing MLOps with MLflow, Evidently AI and Splunk.
               </p>
             </div>
             <div className="border-l-2 border-primary-300 dark:border-primary-700 pl-4">
-              <h4 className="font-medium text-primary-900 dark:text-white">Education</h4>
+              <h4 className="font-medium text-primary-900 dark:text-white">Data Scientist — Yash Technologies, Pune (Jul 2022 - Apr 2024)</h4>
               <p className="text-primary-600 dark:text-primary-300 text-sm">
-                Graduated from [University] with a degree in [Field of Study]. Developed a strong foundation in computer science and design.
+                Trained mortality-rate prediction models, built OCR pipelines with DynamoDB, deployed via AWS MLOps CI/CD, and implemented LLM+RAG chatbots for insurance documents.
               </p>
             </div>
             <div className="border-l-2 border-primary-300 dark:border-primary-700 pl-4">
-              <h4 className="font-medium text-primary-900 dark:text-white">Journey</h4>
+              <h4 className="font-medium text-primary-900 dark:text-white">Software Engineer — TCS, Pune (Feb 2021 - Jul 2022)</h4>
               <p className="text-primary-600 dark:text-primary-300 text-sm">
-                Started coding at [Age/Year] and fell in love with building things. Picked up photography as a creative outlet and haven&apos;t stopped since.
+                Deployed Python automation, performed EDA, and built Scikit-learn classification models for workflow optimization and predictive analysis.
+              </p>
+            </div>
+            <div className="border-l-2 border-primary-300 dark:border-primary-700 pl-4">
+              <h4 className="font-medium text-primary-900 dark:text-white">Education — B.E. Information Technology, R.G.P.V (2016 - 2020)</h4>
+              <p className="text-primary-600 dark:text-primary-300 text-sm">
+                Graduated from Rajiv Gandhi Proudyogiki Vishwavidyalaya with a strong foundation in information technology and software engineering.
+              </p>
+            </div>
+            <div className="border-l-2 border-primary-300 dark:border-primary-700 pl-4">
+              <h4 className="font-medium text-primary-900 dark:text-white">Achievement</h4>
+              <p className="text-primary-600 dark:text-primary-300 text-sm">
+                Runner-up in a GenAI hackathon for a music recommendation app using LLM and RAG techniques.
               </p>
             </div>
           </div>
@@ -108,7 +124,7 @@ export default function AboutPage() {
             Interests & Hobbies
           </h3>
           <div className="flex flex-wrap gap-3">
-            {["Photography", "Travel", "Reading", "Coffee", "Music", "Hiking", "Movies", "Cooking", "Technology", "Design"].map((interest) => (
+            {["GenAI", "AR/VR Technologies", "Photography", "Audiophile", "Music", "RAG Systems", "MLOps", "Cloud Architecture"].map((interest) => (
               <span
                 key={interest}
                 className="px-4 py-2 bg-primary-100 dark:bg-primary-800 text-primary-700 dark:text-primary-300 rounded-full text-sm"
@@ -124,7 +140,7 @@ export default function AboutPage() {
           <div className="inline-flex items-center px-6 py-3 bg-primary-100 dark:bg-primary-800 rounded-full">
             <Coffee className="w-5 h-5 mr-2 text-primary-600 dark:text-primary-300" />
             <span className="text-primary-700 dark:text-primary-300 text-sm">
-              Fun fact: I&apos;ve visited [Number] countries and counting!
+              Fun fact: Runner-up in a GenAI hackathon for a music recommendation app using LLM + RAG!
             </span>
           </div>
         </div>

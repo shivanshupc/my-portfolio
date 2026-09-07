@@ -1,26 +1,26 @@
 import Link from "next/link";
-import { ArrowRight, Code, Palette, Database, Cloud, Wrench, Users } from "lucide-react";
+import { ArrowRight, Code, Brain, Cloud, Workflow } from "lucide-react";
 
 const skillCategories = [
   {
     icon: Code,
-    title: "Languages",
-    skills: ["JavaScript", "TypeScript", "Python", "Go", "Rust"],
+    title: "Programming & AI",
+    skills: ["Python", "LangChain", "LangFuse", "PyTorch", "TensorFlow", "Scikit-learn"],
   },
   {
-    icon: Palette,
-    title: "Frontend",
-    skills: ["React", "Next.js", "Vue.js", "Tailwind CSS", "Framer Motion"],
-  },
-  {
-    icon: Database,
-    title: "Backend",
-    skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"],
+    icon: Brain,
+    title: "GenAI & LLM Systems",
+    skills: ["GenAI", "LLM Fine-tuning", "RAG Pipelines", "Agent Orchestration", "vLLM", "ReAct Agents"],
   },
   {
     icon: Cloud,
-    title: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    title: "Cloud & Tools",
+    skills: ["AWS (Bedrock, SageMaker)", "Kubernetes", "Docker", "MLflow", "Evidently AI", "Grafana"],
+  },
+  {
+    icon: Workflow,
+    title: "MLOps & Systems",
+    skills: ["CI/CD", "Apache Airflow", "NVIDIA DCGM", "Splunk", "DynamoDB", "OCR Pipelines"],
   },
 ];
 

@@ -5,8 +5,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { href: "https://github.com", icon: Github, label: "GitHub" },
-    { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
+    { href: "https://github.com/shivanshupc", icon: Github, label: "GitHub" },
+    { href: "https://linkedin.com/in/shivanshupc/", icon: Linkedin, label: "LinkedIn" },
     { href: "https://twitter.com", icon: Twitter, label: "Twitter" },
     { href: "mailto:shivanshupc@gmail.com", icon: Mail, label: "Email" },
   ];
@@ -19,8 +19,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Shivanshu Sharma</h3>
             <p className="text-primary-300 text-sm">
-              Developer, Photographer, Creator. Building digital experiences and
-              capturing moments.
+              ML Engineer, Photographer, Creator. Designing, deploying, and optimizing ML and GenAI systems in
+              production.
             </p>
           </div>
 

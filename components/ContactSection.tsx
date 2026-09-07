@@ -49,8 +49,8 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-primary-500 dark:text-primary-400">Email</p>
-                  <a href="mailto:your.email@example.com" className="text-primary-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-300 transition-colors">
-                    your.email@example.com
+                  <a href="mailto:shivanshupc@gmail.com" className="text-primary-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-300 transition-colors">
+                    shivanshupc@gmail.com
                   </a>
                 </div>
               </div>
@@ -60,7 +60,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-primary-500 dark:text-primary-400">Location</p>
-                  <p className="text-primary-900 dark:text-white">Your City, Country</p>
+                  <p className="text-primary-900 dark:text-white">Pune, India</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -69,7 +69,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-primary-500 dark:text-primary-400">Phone</p>
-                  <p className="text-primary-900 dark:text-white">+1 (555) 123-4567</p>
+                  <p className="text-primary-900 dark:text-white">+91-7982398257</p>
                 </div>
               </div>
             </div>
